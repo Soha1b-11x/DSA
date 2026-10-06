@@ -1,7 +1,6 @@
 class Solution {
 public:
     int minAddToMakeValid(string s) {
-        int start = 0 , end = 0;
         int needToAdd = 0;
         stack<char>st;
 
