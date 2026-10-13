@@ -9,7 +9,7 @@ private:
             int newRow = sr+delrow[i];
             int newCol = sc+delcol[i];
             if(newRow >= 0 && newRow < r && newCol >= 0 && newCol < c && arr[newRow][newCol] == initColor){
-                arr[newRow][newCol] = color;
+                // arr[newRow][newCol] = color;
                 dfs(arr , initColor , newRow , newCol , color);
             }
         }
